@@ -29,13 +29,14 @@ When  the user opens the app, the home screen is displayed. There are two option
 ### 2.2 Deployment Diagram
 
 *This section should describe how the different components will be deployed on actual hardware devices. Similar to the previous subsection, this diagram may be unnecessary for simple systems; in these cases, simply state so and concisely state why.*
+![alt text](Deployment Diagram.jpg)
 
 ## 3 Low-Level Design
 
 *Describe the low-level design for each of the system components identified in the previous section. For each component, you should provide details in the following UML diagrams to show its internal structure.*
 
 ### 3.1 Class Diagram
-
+![alt text](CaseDiagram.png)
 *In the case of an OO design, the internal structure of a software component would typically be expressed as a UML class diagram that represents the static class structure for the component and their relationships.*
 
 ### 3.2 Other Diagrams
@@ -44,4 +45,4 @@ When  the user opens the app, the home screen is displayed. There are two option
 
 ## 4 User Interface Design
 *For GUI-based systems, this section should provide the specific format/layout of the user interface of the system (e.g., in the form of graphical mockups).*
-
+![alt text](InterfaceDesign.png)
