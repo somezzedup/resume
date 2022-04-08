@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import edu.qc.seclass.fim.databinding.FragmentFirstBinding;
+import edu.qc.seclass.fim.databinding.WelcomeBinding;
 
 public class Welcome extends Fragment {
 
-    private FragmentFirstBinding binding;
+    private WelcomeBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +21,7 @@ public class Welcome extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentFirstBinding.inflate(inflater, container, false);
+        binding = WelcomeBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -33,7 +33,7 @@ public class Welcome extends Fragment {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(Welcome.this)
-                        .navigate(R.id.action_FirstFragment_to_SecondFragment);
+                        .navigate(R.id.action_Welcome_to_Login);
             }
         });
     }
