@@ -9,7 +9,7 @@
         android:id="@+id/Welcome"
         android:name="edu.qc.seclass.fim.Welcome"
         android:label="@string/Welcome_label"
-        tools:layout="@layout/Welcome">
+        tools:layout="@layout/activity_welcome">
 
         <action
             android:id="@+id/action_Welcome_to_Login"
@@ -19,7 +19,7 @@
         android:id="@+id/Login"
         android:name="edu.qc.seclass.fim.Login"
         android:label="@string/Login_label"
-        tools:layout="@layout/Login">
+        tools:layout="@layout/activity_login">
 
         <action
             android:id="@+id/action_Login_to_Welcome"
