@@ -33,7 +33,7 @@ public class Welcome extends Fragment {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(Welcome.this)
-                        .navigate(R.id.action_Welcome_to_Login);
+                        .navigate(R.id.action_Welcome_to_Search);
             }
         });
     }

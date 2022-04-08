@@ -33,7 +33,7 @@ public class Search extends Fragment {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(Search.this)
-                        .navigate(R.id.action_Login_to_Welcome);
+                        .navigate(R.id.action_Search_to_Welcome);
             }
         });
     }
