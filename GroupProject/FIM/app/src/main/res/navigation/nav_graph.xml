@@ -12,17 +12,17 @@
         tools:layout="@layout/activity_welcome">
 
         <action
-            android:id="@+id/action_Welcome_to_Login"
-            app:destination="@id/Login" />
+            android:id="@+id/action_Welcome_to_Search"
+            app:destination="@id/Search" />
     </fragment>
     <fragment
-        android:id="@+id/Login"
-        android:name="edu.qc.seclass.fim.Login"
-        android:label="@string/Login_label"
-        tools:layout="@layout/activity_login">
+        android:id="@+id/Search"
+        android:name="edu.qc.seclass.fim.Search"
+        android:label="@string/Search_label"
+        tools:layout="@layout/activity_search">
 
         <action
-            android:id="@+id/action_Login_to_Welcome"
+            android:id="@+id/action_Search_to_Welcome"
             app:destination="@id/Welcome" />
     </fragment>
 </navigation>
