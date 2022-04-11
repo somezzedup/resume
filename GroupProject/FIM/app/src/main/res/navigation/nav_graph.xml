@@ -14,6 +14,9 @@
         <action
             android:id="@+id/action_Welcome_to_Search"
             app:destination="@id/Search" />
+        <action
+            android:id="@+id/action_Welcome_to_Login"
+            app:destination="@id/Login" />
     </fragment>
     <fragment
         android:id="@+id/Search"
@@ -30,6 +33,9 @@
         <action
             android:id="@+id/action_Search_to_Store"
             app:destination="@id/Store" />
+        <action
+            android:id="@+id/action_Search_to_user_page"
+            app:destination="@id/user_page" />
     </fragment>
     <fragment
         android:id="@+id/SearchResult"
@@ -55,5 +61,45 @@
     <fragment
         android:id="@+id/Store"
         android:name="edu.qc.seclass.fim.Store"
-        tools:layout="@layout/fragment_store"></fragment>
+        tools:layout="@layout/fragment_store">
+        <action
+            android:id="@+id/action_Store_to_FloorInformation"
+            app:destination="@id/FloorInformation" />
+    </fragment>
+    <fragment
+        android:id="@+id/Login"
+        android:name="edu.qc.seclass.fim.ui.login.LoginFragment"
+        android:label="@string/action_sign_in_short"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_Login_to_user_page"
+            app:destination="@id/user_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/History"
+        android:name="edu.qc.seclass.fim.History"
+        tools:layout="@layout/fragment_history">
+
+        <action
+            android:id="@+id/action_History_to_FloorInformation"
+            app:destination="@id/FloorInformation" />
+        <action
+            android:id="@+id/action_History_to_Store"
+            app:destination="@id/Store" />
+        <action
+            android:id="@+id/action_History_to_user_page"
+            app:destination="@id/user_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/user_page"
+        android:name="edu.qc.seclass.fim.UserPage"
+        tools:layout="@layout/fragment_user_page">
+
+        <action
+            android:id="@+id/action_user_page_to_History"
+            app:destination="@id/History" />
+        <action
+            android:id="@+id/action_user_page_to_Search"
+            app:destination="@id/Search" />
+    </fragment>
 </navigation>

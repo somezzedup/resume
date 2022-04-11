@@ -14,8 +14,13 @@
 
     <!-- String related to Search -->
     <string name="Product_name">Product name</string>
+    <string name="Search_Product">Search Product</string>
 
     <string name="Store_name">Store name</string>
+    <string name="Search_Store">Search Store</string>
+
+    <string name="Floor_category_label">Floor Category</string>
+    <string name="Floor_type_label">Floor Type</string>
 
     <string name="floorcategory">
         <item>Tile</item>
