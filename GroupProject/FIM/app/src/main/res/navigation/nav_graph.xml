@@ -24,5 +24,36 @@
         <action
             android:id="@+id/action_Search_to_Welcome"
             app:destination="@id/Welcome" />
+        <action
+            android:id="@+id/action_Search_to_SearchResult"
+            app:destination="@id/SearchResult" />
+        <action
+            android:id="@+id/action_Search_to_Store"
+            app:destination="@id/Store" />
     </fragment>
+    <fragment
+        android:id="@+id/SearchResult"
+        android:name="edu.qc.seclass.fim.SearchResult"
+        android:label="@string/Search_Result_label"
+        tools:layout="@layout/fragment_search_result">
+        <action
+            android:id="@+id/action_SearchResult_to_Search"
+            app:destination="@id/Search" />
+        <action
+            android:id="@+id/action_SearchResult_to_FloorInformation"
+            app:destination="@id/FloorInformation" />
+    </fragment>
+    <fragment
+        android:id="@+id/FloorInformation"
+        android:name="edu.qc.seclass.fim.FloorInfomation"
+        android:label="@string/Floor_Information_label"
+        tools:layout="@layout/fragment_floor_infomation">
+        <action
+            android:id="@+id/action_FloorInformation_to_SearchResult"
+            app:destination="@id/SearchResult" />
+    </fragment>
+    <fragment
+        android:id="@+id/Store"
+        android:name="edu.qc.seclass.fim.Store"
+        tools:layout="@layout/fragment_store"></fragment>
 </navigation>
