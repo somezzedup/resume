@@ -21,14 +21,13 @@
 
     <EditText
         android:id="@+id/enter_product_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="199dp"
+        android:layout_height="45dp"
         android:layout_marginTop="128dp"
-        android:layout_marginEnd="12dp"
+        android:layout_marginEnd="32dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textProductname"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,11 +35,35 @@
         android:id="@+id/textProductname"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
-        android:layout_marginStart="44dp"
+        android:layout_marginStart="36dp"
         android:layout_marginTop="128dp"
         android:text="@string/Product_name"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/select_floorcategory"
+        android:layout_width="337dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_product_name" />
+
+    <Spinner
+        android:id="@+id/select_floortype"
+        android:layout_width="337dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_floorcategory" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,42 @@
     <!-- String related to Search -->
     <string name="Product_name">Product name:</string>
 
+    <string name="floorcategory">
+        <item>Tile</item>
+        <item>Stone</item>
+        <item>Wood</item>
+        <item>Laminate</item>
+        <item>Vinyl</item>
+    </string>
+
+    <string name="floortype_tile">
+        <item>Procelain</item>
+        <item>Ceramic</item>
+        <item>Resin</item>
+    </string>
+
+    <string name="floortype_stone">
+        <item>Marble</item>
+        <item>Pebble</item>
+        <item>Slate</item>
+    </string>
+
+    <string name="floortype_wood">
+        <item>Solid</item>
+        <item>Engineered</item>
+        <item>Bomboo</item>
+    </string>
+
+    <string name="floortype_Laminate">
+        <item>Regular</item>
+        <item>Water Resistant</item>
+    </string>
+
+    <string name="floortype_vinyl">
+        <item>Water Resistant</item>
+        <item>Waterproof</item>
+    </string>
+
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
