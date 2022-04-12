@@ -29,11 +29,19 @@ public class Search extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
+        binding.searchButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(Search.this)
-                        .navigate(R.id.action_Search_to_Welcome);
+                        .navigate(R.id.action_Search_to_SearchResult);
+            }
+        });
+
+        binding.searchButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(Search.this)
+                        .navigate(R.id.action_Search_to_Store);
             }
         });
     }

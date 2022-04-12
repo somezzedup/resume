@@ -23,6 +23,7 @@
     <string name="Floor_type_label">Floor Type</string>
 
     <string name="floorcategory">
+        <item>null</item>
         <item>Tile</item>
         <item>Stone</item>
         <item>Wood</item>
@@ -31,29 +32,34 @@
     </string>
 
     <string name="floortype_tile">
+        <item>null</item>
         <item>Procelain</item>
         <item>Ceramic</item>
         <item>Resin</item>
     </string>
 
     <string name="floortype_stone">
+        <item>null</item>
         <item>Marble</item>
         <item>Pebble</item>
         <item>Slate</item>
     </string>
 
     <string name="floortype_wood">
+        <item>null</item>
         <item>Solid</item>
         <item>Engineered</item>
         <item>Bomboo</item>
     </string>
 
     <string name="floortype_Laminate">
+        <item>null</item>
         <item>Regular</item>
         <item>Water Resistant</item>
     </string>
 
     <string name="floortype_vinyl">
+        <item>null</item>
         <item>Water Resistant</item>
         <item>Waterproof</item>
     </string>

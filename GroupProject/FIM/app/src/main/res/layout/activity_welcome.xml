@@ -35,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="204dp"
         android:text="@string/Search_label"
-        app:layout_constraintTop_toBottomOf="@+id/textview_first"
-        tools:layout_editor_absoluteX="159dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_first" />
 </androidx.constraintlayout.widget.ConstraintLayout>
