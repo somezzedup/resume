@@ -62,9 +62,6 @@
         android:label="@string/action_sign_in_short"
         tools:layout="@layout/fragment_login">
         <action
-            android:id="@+id/action_Login_to_user_page"
-            app:destination="@id/user_page" />
-        <action
             android:id="@+id/action_Login_to_Welcome"
             app:destination="@id/Welcome" />
     </fragment>

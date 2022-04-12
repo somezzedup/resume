@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Search">
 
+    <!-- Product name view use for searching product -->
     <EditText
         android:id="@+id/enter_product_name"
         android:layout_width="337dp"
@@ -18,6 +19,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- First Level Floor Category -->
+    <Spinner
+        android:id="@+id/select_floorcategory"
+        android:layout_width="337dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/Floor_category_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enter_product_name" />
+
+    <!-- First Level Floor type -->
     <Spinner
         android:id="@+id/select_floortype"
         android:layout_width="337dp"
@@ -29,16 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/select_floorcategory"
         tools:visibility="visible" />
 
-    <Spinner
-        android:id="@+id/select_floorcategory"
-        android:layout_width="337dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="24dp"
-        android:contentDescription="@string/Floor_category_label"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/enter_product_name" />
-
+    <!-- Store name view for searching store -->
     <EditText
         android:id="@+id/enter_store_name"
         android:layout_width="337dp"
@@ -51,6 +55,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/search_button1" />
 
+    <!-- Search Product -->
     <Button
         android:id="@+id/search_button1"
         android:layout_width="wrap_content"
@@ -61,6 +66,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/select_floortype" />
 
+    <!-- Search Store -->
     <Button
         android:id="@+id/search_button2"
         android:layout_width="wrap_content"

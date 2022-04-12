@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Welcome">
 
+    <!-- Just a message -->
     <TextView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
@@ -17,8 +18,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- button lead to login activity -->
     <Button
-        android:id="@+id/button_first"
+        android:id="@+id/to_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/to_login_page"
@@ -29,6 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/to_search"
         app:layout_constraintVertical_bias="0.159" />
 
+    <!-- button lead to search activity -->
     <Button
         android:id="@+id/to_search"
         android:layout_width="wrap_content"
