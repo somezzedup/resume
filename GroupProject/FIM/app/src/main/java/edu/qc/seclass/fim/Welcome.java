@@ -36,6 +36,14 @@ public class Welcome extends Fragment {
                         .navigate(R.id.action_Welcome_to_Search);
             }
         });
+
+        binding.toLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(Welcome.this)
+                        .navigate(R.id.action_Welcome_to_Login);
+            }
+        });
     }
 
     @Override
