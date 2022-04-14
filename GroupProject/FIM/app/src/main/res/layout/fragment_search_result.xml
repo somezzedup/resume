@@ -20,16 +20,17 @@
 
     <!-- Scroll view that use to display searching results -->
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="600dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="411dp"
+        android:layout_height="602dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintTop_toBottomOf="@+id/number_item"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView6"

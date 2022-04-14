@@ -57,15 +57,6 @@
             app:destination="@id/FloorInformation" />
     </fragment>
     <fragment
-        android:id="@+id/Login"
-        android:name="edu.qc.seclass.fim.ui.login.LoginFragment"
-        android:label="@string/action_sign_in_short"
-        tools:layout="@layout/fragment_login">
-        <action
-            android:id="@+id/action_Login_to_Welcome"
-            app:destination="@id/Welcome" />
-    </fragment>
-    <fragment
         android:id="@+id/History"
         android:name="edu.qc.seclass.fim.History"
         tools:layout="@layout/fragment_history">
@@ -91,5 +82,14 @@
         <action
             android:id="@+id/action_user_page_to_Search"
             app:destination="@id/Search" />
+    </fragment>
+    <fragment
+        android:id="@+id/Login"
+        android:name="edu.qc.seclass.fim.Login"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_Login_to_Welcome"
+            app:destination="@id/Welcome" />
     </fragment>
 </navigation>
